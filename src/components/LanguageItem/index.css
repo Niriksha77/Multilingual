@@ -1,0 +1,21 @@
+.language-item {
+  margin: 0;
+}
+
+.language-button {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: #db1c48;
+  background-color: #ffffff;
+  border: 1px solid #db1c48;
+  border-radius: 20px;
+  padding: 8px 20px;
+  cursor: pointer;
+  outline: none;
+}
+
+.active-button {
+  color: #ffffff;
+  background-color: #db1c48;
+}

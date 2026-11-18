@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #ffffff;
+  padding: 24px;
+}
+
+.heading {
+  color: #1e293b;
+  font-family: 'Roboto', sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+.buttons-list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  list-style-type: none;
+  padding: 0;
+  margin: 0 0 36px 0;
+  gap: 20px;
+}
+
+.greeting-image {
+  width: 280px;
+  max-width: 90%;
+}
+
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 44px;
+  }
+
+  .greeting-image {
+    width: 340px;
+  }
+}
